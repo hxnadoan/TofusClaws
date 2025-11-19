@@ -1,0 +1,19 @@
+@font-face{
+    src: url(fonts/Lazydog.otf);
+    font-family: Lazydog;
+}
+
+@font-face {
+    src: url(fonts/Hana’s\ Hand.ttf);
+    font-family: Hana;
+}
+
+h1{
+    font-family: lazydog;
+    font-size: 45px;
+}
+
+body{
+    font-family: Hana;
+    font-size: 18px;
+}
