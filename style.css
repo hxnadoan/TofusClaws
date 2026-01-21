@@ -8,12 +8,38 @@
     font-family: Hana;
 }
 
+
 h1{
     font-family: lazydog;
     font-size: 45px;
+    text-align: center;
 }
 
 body{
     font-family: Hana;
     font-size: 18px;
+    margin: 0px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: #ff3b72;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    padding: 15px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background-color: #fabcce;
+}
+
+.navbar li{
+    float: left;
 }
