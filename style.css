@@ -8,6 +8,23 @@
     font-family: Hana;
 }
 
+/*! body style ==========================================*/
+
+body{
+    font-family: Hana;
+    font-size: 18px;
+    margin: 0px;
+
+    /*! background image*/
+    background-image: url(media/background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+/*! elements within body ================================*/
 
 h1{
     font-family: lazydog;
@@ -15,11 +32,7 @@ h1{
     text-align: center;
 }
 
-body{
-    font-family: Hana;
-    font-size: 18px;
-    margin: 0px;
-}
+/*! navigation bar style ================================*/
 
 .navbar ul{
     list-style-type: none;
