@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Tofu's Claws</title>
+    <title>Tofu's Claws Home</title>
     <link rel="icon" type="image/png" href="media/favicon.PNG">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -12,15 +12,27 @@
 <body>
     <header>
 
-        <nav class="navbar">
+        <div class="off-screen-menu">
             <ul>
-                <li><a href="homepage.html">
-                    <img src="media/favicon.png" width="25px"></a>
-                </li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="pricing.html">Pricing</a></li>
-                <li><a href="releases.html">Releases</a></li>
+                <li><a href="homepage.html" target="_blank">Home</a></li>
+                <li><a href="about.html" target="_blank">About</a></li>
+                <li><a href="pricing.html" target="_blank">Pricing</a></li>
+                <li><a href="releases.html" target="_blank">Releases</a></li>
             </ul>
+        </div>
+
+        <nav>
+            <div class="tofu-home">
+                <li><a href="homepage.html">
+                    <img src="media/favicon.png" width="35px"></a>
+                </li>
+            </div>
+
+            <div class="ham-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
 
     </header>
@@ -35,8 +47,11 @@
 
     <footer>
     <hr>
+
     &copy; 2025 Tofu's Claws
 
     </footer>
+    <script src="functions.js"></script>
+
 </body>
 </html>
