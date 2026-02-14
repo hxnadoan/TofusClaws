@@ -7,10 +7,12 @@
     src: url(fonts/Hana’s\ Hand.ttf);
     font-family: Hana;
 }
+/*! ======================================================*/
+/*! ======================================================*/
 
 /*! body style ==========================================*/
-
 body{
+    /* text formatting */
     font-family: Hana;
     font-size: 18px;
     margin: 0px;
@@ -22,11 +24,17 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+
+    /* formats page to keep info 
+    in rows (header, main, footer) */
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
     
 }
+/*! ======================================================*/
 
 /*! elements within body ================================*/
-
 h1{
     font-family: lazydog;
     font-size: 45px;
@@ -38,66 +46,12 @@ h3{
     font-size: 20px;
 }
 
-/*! homepage =============================================*/
-
-.logo-home {
-    display: flex;
-    justify-content: center;
+p {
+    align-self: left;
 }
-
-.intro-content {
-    font-family: Lazydog;
-    font-size: 30px;
-    padding-bottom: 60px;
-}
-
-/*! button container */
-.shopButtons a{
-    /*! Removes link underline on buttons */
-    text-decoration: none;
-}
-.shopButtons {
-    padding: 300px;
-    display: flex;
-    justify-content: center;
-/*! stacks buttons on each other when display too small */
-    flex-wrap: wrap;
-    gap: 50px;
-}
-
-/*! buttons */
-.buttonFormat {
-    background-color: rgb(255, 255, 255);
-/*! Borders */
-    border-radius: 5px;
-    border: 4px, solid;
-/*! Font */
-    font-family: Lazydog;
-    font-size: 30px;
-   
-}
-.buttonFormat:hover {
-    background-color: #f86ba6;
-}
-
-/*! gallery */
-.galleryPreview {
-    display: inline-flex;
-    width: 400px;
-    border: 4px, solid;
-    margin: 10px;
-}
-.galleryPreview:hover {
-    border-color: #fc006b;
-}
-.galleryPreview img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
+/*! ======================================================*/
 
 /*! navigation bar style ================================*/
-
 nav{
     padding: 1rem;
     display: flex;
@@ -116,9 +70,9 @@ nav{
     height: 40px;
     width: 40px;
 }
+/*! ======================================================*/
 
 /* hamburger lines =======================================*/
-
 .ham-menu span {
     height: 5px;
     width: 90%;
@@ -136,9 +90,9 @@ nav{
 .ham-menu span:nth-child(3){
     top: 75%;
 }
+/*! ======================================================*/
 
 /* hamburger exit ===========================-===========*/
-
 .ham-menu.active span:nth-child(1){
     top: 50%;
     transform: translate(-50%, 50%) rotate(45deg);
@@ -152,9 +106,9 @@ nav{
     top: 50%;
     transform: translate(-50%, 50%) rotate(-45deg);
 }
+/*! ======================================================*/
 
 /* toggled menu =========================================*/
-
 .off-screen-menu{
 /* formatting */
     background-color: #fc006b;
@@ -196,8 +150,105 @@ nav{
 .off-screen-menu.active{
     right: 0px;
 }
+/*! ======================================================*/
+
+/*! homepage =============================================*/
+.logo-home {
+    display: flex;
+    justify-content: center;
+}
+
+.intro-content {
+    font-family: Lazydog;
+    font-size: 30px;
+    padding-bottom: 60px;
+}
+
+/*! button container */
+.shopButtons a{
+    /*! Removes link underline on buttons */
+    text-decoration: none;
+}
+.shopButtons {
+    padding: 300px;
+    display: flex;
+    justify-content: center;
+/*! stacks buttons on each other when display too small */
+    flex-wrap: wrap;
+    gap: 50px;
+}
+/*! ======================================================*/
+
+/*! buttons */
+.buttonFormat {
+    background-color: rgb(255, 255, 255);
+/*! Borders */
+    border-radius: 5px;
+    border: 4px, solid;
+/*! Font */
+    font-family: Lazydog;
+    font-size: 30px;
+}
+.buttonFormat:hover {
+    background-color: #f86ba6;
+}
+/*! ======================================================*/
+
+/*! gallery */
+.galleryPreview {
+    display: inline-flex;
+    width: 400px;
+    border: 4px, solid;
+    margin: 10px;
+}
+
+.galleryPreview:hover {
+    border-color: #fc006b;
+}
+
+.galleryPreview img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+/*! ======================================================*/
+/*! ======================================================*/
+
+/*! about page ===========================================*/
+.ceoInfo {
+    
+    float: left;
+    margin-top: 40px;
+}
+
+.aboutImage img {
+    width: 350px;
+    border: 4px, solid;
+    height: auto;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.aboutText {
+    margin-top: 70px;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: left;
+}
+
+.faq-section {
+ 
+}
+
+/*! ======================================================*/
+/*! ======================================================*/
 
 /*! footer ===============================================*/
 .copyright {
-    align-items: right;
+    padding-bottom: 15px;
+    font-family: Lazydog;
+    font-size: 15px;
 }
+/*! ======================================================*/
