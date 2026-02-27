@@ -10,13 +10,15 @@
 - [About Project](#-about)
 - [Important Links](#-important-links)
   - [Tutorials Used](#tutorials-used)
+- [Running Website](#-how-to-run-locally)
 - [Assets](#-assets)
   - [Fonts](#fonts)
   - [Images](#images)
+- [Credits](#-credits)
 
 ## <img src="media/favicon.png" width="30px"> About 
-[NON-COMMERICAL]
-A template website intended for a nail business with information about pricing, commissions, and releases.
+[NON-COMMERICAL] <br>
+A static template website intended for a nail business with information about pricing, commissions, and releases.
 - Not intended for commercial use - direct links to commercial sites (such as [Shopify](https://www.shopify.com/) are for demonstration purposes only.
 - Implemented using HTML, CSS, and Javascript through [VS Code](https://code.visualstudio.com/).
 - Wireframe demonstrated through [Figma](https://www.figma.com/).
@@ -27,6 +29,10 @@ A template website intended for a nail business with information about pricing, 
 ### Tutorials Used
 - [HTML Intro Course] (https://youtu.be/HGTJBPNC-Gw?si=-IEaUo6lqm_2xUyn)
 - [Hambuger-style Menu] (https://youtu.be/aNDqzlAKmZc?si=ELFHgzBwic3CdM5l)
+
+## <img src="media/favicon.png" width="30px"> How to Run Locally
+1. Open homepage.html in a local live server through VS Code.
+2. Open homepage.hmtl in file explorer through any web browser.
 
 ## <img src="media/favicon.png" width="30px"> Assets
 
@@ -43,3 +49,8 @@ Illustrations by me were done through [Procreate](https://procreate.com/).
 - sample gallery.png - Personal photo library (my cat)
 - topuhead.PNG - Personal photo library
 
+## <img src="media/favicon.png" width="30px"> Credits
+Hana Doan
+
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hxnadoan)
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hana-doan-962081228/)
